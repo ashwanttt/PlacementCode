@@ -5,7 +5,7 @@ public class LIS
    public static int subsequence(int[] arr)
    {
         int[] lis = new int[arr.length];
-        int i,j, max=0;
+        int i,j, max=1;
         for(i = 0; i < arr.length; i++)
         {
             lis[i] = 1;
